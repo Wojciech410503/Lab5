@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <!-- Main header of the page -->
+    <h1>Hello World</h1>
+    
+    <!-- Section for the GET method form -->
+    <h2>Get Method</h2>
+    <!-- GET form: Sends data via URL parameters -->
+    <form action="/name" method="GET">
+        <!-- Input field for the first name, marked as required -->
+        First name: <input type="text" name="firstname" required><br>
+        <!-- Input field for the last name, marked as required -->
+        Last name: <input type="text" name="lastname" required><br>
+        <!-- Submit button for the GET form -->
+        <input type="submit" value="Submit">
+    </form>
+    
+    <hr> <!-- Horizontal rule for separation -->
+    
+    <!-- Section for the POST method form -->
+    <h2>Post Method</h2>
+    <!-- POST form: Sends data in the body of the request -->
+    <form action="/name" method="POST">
+        <!-- Input field for the first name, marked as required -->
+        First name: <input type="text" name="firstname" required><br>
+        <!-- Input field for the last name, marked as required -->
+        Last name: <input type="text" name="lastname" required><br>
+        <!-- Submit button for the POST form -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
